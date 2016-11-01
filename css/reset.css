@@ -1,0 +1,83 @@
+/************************ reset ************************/
+body,
+ol, ul, li, dl, dt, dd,
+h1, h2, h3, h4, h5, h6, p, pre,
+form, fieldset, legend, input, textarea, select, button,
+blockquote, th, td, hr, article, aside, details,
+figcaption, figure, header, footer, section, menu, nav {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px/150% SimSun, Arial, 'Microsoft Yahei';
+    color: #333;
+    background-color: #fff;
+    font-family: 'Microsoft Yahei';
+}
+ol, ul, li {
+    list-style: none;
+}
+img {
+    border: none;
+}
+input, a, select, button {
+    outline: 0;
+    border: 0;
+}
+
+input::-moz-focus-inner,
+a::-moz-focus-inner,
+select::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-color: transparent!important;
+}
+b{ 
+font-weight: normal;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:visited {
+    color: #898989;
+}
+a:hover {
+    color: #ff6700;
+}
+a:active {
+    color: #898989;
+}
+/*ul{*/
+    /*overflow: hidden;*/
+/*}*/
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    height: 0;
+    content: '\0020';
+}
+.w {
+    width: 1227px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.rel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
